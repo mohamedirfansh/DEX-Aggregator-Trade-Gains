@@ -7,7 +7,7 @@ WITH
       dex.trades
     WHERE
       category = 'DEX'
-      AND block_time BETWEEN CAST('2019-01-01' AS DATE) AND CAST('2023-01-01' AS DATE)
+      AND block_time BETWEEN CAST('2019-06-01' AS DATE) AND CAST('2023-01-01' AS DATE)
     GROUP BY
       1
   )

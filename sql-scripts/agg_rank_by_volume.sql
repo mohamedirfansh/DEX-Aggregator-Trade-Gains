@@ -6,7 +6,7 @@ WITH aggregators AS (
     dex.trades
   WHERE
     category = 'Aggregator'
-    AND block_time BETWEEN CAST('2021-01-01' AS DATE) AND CAST('2023-01-01' AS DATE)
+    AND block_time BETWEEN CAST('2019-06-01' AS DATE) AND CAST('2023-01-01' AS DATE)
     AND project NOT IN ('Matcha', 'Tokenlon')
   GROUP BY
     1
